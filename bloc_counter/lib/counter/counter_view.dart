@@ -10,7 +10,7 @@ class CounterView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Counter App', style: TextStyle(fontSize: 20)),
-        centerTitle: false,
+        // centerTitle: false,
       ),
       // body
       // in this case counter cubit  is the source of state (logic that controls the counter).
